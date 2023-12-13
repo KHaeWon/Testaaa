@@ -1,10 +1,12 @@
 package com.example.myapp2;
 
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
 
-@RestController
+@Controller
 public class Hello {
 
-	//충돌 충돌 충돌
+	public String hi() {
+		return "2시 57분 충돌 테스트";
+	}
 	
 }
